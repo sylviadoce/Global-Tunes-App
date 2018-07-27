@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Global_Tunes_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="2000px-Music-staff.svg" translatesAutoresizingMaskIntoConstraints="NO" id="m2f-pZ-2C7">
+                                <rect key="frame" x="0.0" y="219" width="375" height="257"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yvd-NN-23r">
+                                <rect key="frame" x="166" y="513" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="uparrow_arriba_5806" translatesAutoresizingMaskIntoConstraints="NO" id="tPT-Dc-NCe">
+                                <rect key="frame" x="161" y="521" width="52" height="49"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="GLOBAL TUNES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r5m-Ew-RJR">
+                                <rect key="frame" x="20" y="51" width="334" height="55.5"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="51"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v2r-UL-SCk">
+                                <rect key="frame" x="108" y="213" width="202" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eNp-f7-vxI">
+                                <rect key="frame" x="108" y="213" width="202" height="263"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="0fY-74-t2b" kind="show" id="eMR-FU-e17"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="world-wide song suggestions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="07L-Vw-grd">
+                                <rect key="frame" x="78" y="117" width="218" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                <color key="textColor" red="0.24596812668515525" green="0.39432526098133713" blue="0.63495399746192893" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="click the note " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JBV-58-gvr">
+                                <rect key="frame" x="58" y="591" width="259" height="40"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.6679612395633524" green="0.81001959737050333" blue="0.9209430520304569" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="RLe-sn-rkG" firstAttribute="bottom" secondItem="m2f-pZ-2C7" secondAttribute="bottom" constant="191" id="3vq-Zr-b2b"/>
+                            <constraint firstItem="tPT-Dc-NCe" firstAttribute="leading" secondItem="RLe-sn-rkG" secondAttribute="leading" constant="168" id="6pw-LX-peT"/>
+                            <constraint firstItem="JBV-58-gvr" firstAttribute="leading" secondItem="RLe-sn-rkG" secondAttribute="leading" constant="86" id="AIq-24-Sqv"/>
+                            <constraint firstItem="RLe-sn-rkG" firstAttribute="bottom" secondItem="JBV-58-gvr" secondAttribute="bottom" constant="37" id="BFT-pd-fn9"/>
+                            <constraint firstItem="RLe-sn-rkG" firstAttribute="trailing" secondItem="tPT-Dc-NCe" secondAttribute="trailing" constant="182" id="Bko-02-jg1"/>
+                            <constraint firstItem="m2f-pZ-2C7" firstAttribute="top" secondItem="RLe-sn-rkG" secondAttribute="top" constant="199" id="I6c-Wp-2PV"/>
+                            <constraint firstItem="tPT-Dc-NCe" firstAttribute="top" secondItem="RLe-sn-rkG" secondAttribute="top" constant="520" id="LLi-i3-BgO"/>
+                            <constraint firstItem="r5m-Ew-RJR" firstAttribute="top" secondItem="RLe-sn-rkG" secondAttribute="top" constant="23" id="OTi-mB-06v"/>
+                            <constraint firstItem="RLe-sn-rkG" firstAttribute="trailing" secondItem="JBV-58-gvr" secondAttribute="trailing" constant="87" id="P9p-WI-msL"/>
+                            <constraint firstItem="JBV-58-gvr" firstAttribute="top" secondItem="RLe-sn-rkG" secondAttribute="top" constant="570" id="Qci-R5-abW"/>
+                            <constraint firstItem="RLe-sn-rkG" firstAttribute="bottom" secondItem="tPT-Dc-NCe" secondAttribute="bottom" constant="105" id="R8o-ir-HlB"/>
+                            <constraint firstItem="RLe-sn-rkG" firstAttribute="trailing" secondItem="r5m-Ew-RJR" secondAttribute="trailing" constant="21" id="Xwe-SJ-IxG"/>
+                            <constraint firstItem="r5m-Ew-RJR" firstAttribute="leading" secondItem="RLe-sn-rkG" secondAttribute="leading" constant="20" id="cft-ld-Tue"/>
+                            <constraint firstItem="RLe-sn-rkG" firstAttribute="bottom" secondItem="r5m-Ew-RJR" secondAttribute="bottom" constant="568.5" id="opX-Q3-MVj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="RLe-sn-rkG"/>
+                    </view>
+                    <connections>
+                        <outlet property="theGif" destination="v2r-UL-SCk" id="dkK-NR-j78"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="ZqC-dS-r9j">
+            <objects>
+                <viewController id="0fY-74-t2b" customClass="MapViewController" customModule="Global_Tunes_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="pBy-AX-uef">
+                        <rect key="frame" x="0.0" y="0.0" width="1500" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="43x-Rc-cBB">
+                                <rect key="frame" x="0.0" y="0.0" width="1500" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W01-Od-Cwi">
+                                        <rect key="frame" x="0.0" y="0.0" width="1500" height="667"/>
+                                        <subviews>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" image="MapGlobalTunes" translatesAutoresizingMaskIntoConstraints="NO" id="XEm-9X-3Tk">
+                                                <rect key="frame" x="0.0" y="0.0" width="1500" height="744"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="1500" id="P3e-RT-wjx"/>
+                                                    <constraint firstAttribute="height" constant="744" id="aDA-6v-06D"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U2z-gR-9On">
+                                                <rect key="frame" x="917" y="150" width="318" height="122"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                                <connections>
+                                                    <action selector="eastAsianChosen:" destination="0fY-74-t2b" eventType="touchUpInside" id="xZO-EU-Wqc"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h0E-U4-Dcd">
+                                                <rect key="frame" x="81" y="164" width="272" height="107"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                                <connections>
+                                                    <action selector="englishChosen:" destination="0fY-74-t2b" eventType="touchUpInside" id="L76-L1-7S0"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LxV-7r-Sx2">
+                                                <rect key="frame" x="81" y="263" width="393" height="416"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="latinChosen:" destination="0fY-74-t2b" eventType="touchUpInside" id="Vaw-ad-4fV"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q1D-JA-reM">
+                                                <rect key="frame" x="517" y="232" width="241" height="379"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="africanChosen:" destination="0fY-74-t2b" eventType="touchUpInside" id="Ele-46-SuD"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gU1-1g-9w5">
+                                                <rect key="frame" x="757" y="10" width="546" height="172"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="russianChosen:" destination="0fY-74-t2b" eventType="touchUpInside" id="buW-QS-mDI"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D7f-RQ-2vf">
+                                                <rect key="frame" x="757" y="197" width="128" height="129"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="middleEasternChosen:" destination="0fY-74-t2b" eventType="touchUpInside" id="Lev-eU-bAC"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="580-ar-pOg">
+                                                <rect key="frame" x="917" y="262" width="119" height="125"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="indianChosen:" destination="0fY-74-t2b" eventType="touchUpInside" id="qaL-zL-jOW"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f15-lI-Fo4">
+                                                <rect key="frame" x="81" y="61" width="357" height="101"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="frenchChosen:" destination="0fY-74-t2b" eventType="touchUpInside" id="vtE-5g-UvK"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oTM-2A-mHu">
+                                                <rect key="frame" x="576" y="187" width="45" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="latinChosen2:" destination="0fY-74-t2b" eventType="touchUpInside" id="BdB-bb-wid"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4bU-eS-SyD">
+                                                <rect key="frame" x="603" y="146" width="45" height="39"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="frenchChosen2:" destination="0fY-74-t2b" eventType="touchUpInside" id="6vh-qc-ulN"/>
+                                                    <action selector="latinChosen2:" destination="0fY-74-t2b" eventType="touchUpInside" id="eAg-c3-fXd"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZMG-6i-XBN">
+                                                <rect key="frame" x="798" y="475" width="46" height="84"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="frenchChosen3:" destination="0fY-74-t2b" eventType="touchUpInside" id="PRJ-0Q-ojs"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="brf-WV-Gqa">
+                                                <rect key="frame" x="574" y="53" width="150" height="105"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="englishChosen2:" destination="0fY-74-t2b" eventType="touchUpInside" id="sfl-48-5If"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QTR-cL-Qab">
+                                                <rect key="frame" x="651" y="155" width="124" height="50"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="englishChosen3:" destination="0fY-74-t2b" eventType="touchUpInside" id="hVb-1S-sgf"/>
+                                                </connections>
+                                            </button>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="select a color to get songs from that region" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HsB-fT-Ggy">
+                                                <rect key="frame" x="8" y="569" width="202" height="90"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="23"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="1500" id="QTY-GW-y4O"/>
+                                            <constraint firstAttribute="bottom" secondItem="XEm-9X-3Tk" secondAttribute="bottom" id="RFU-WF-hfd"/>
+                                            <constraint firstAttribute="trailing" secondItem="XEm-9X-3Tk" secondAttribute="trailing" id="V8I-mG-EYU"/>
+                                            <constraint firstItem="XEm-9X-3Tk" firstAttribute="leading" secondItem="W01-Od-Cwi" secondAttribute="leading" id="giA-ES-dvX"/>
+                                            <constraint firstItem="XEm-9X-3Tk" firstAttribute="top" secondItem="W01-Od-Cwi" secondAttribute="top" id="zCn-qy-mLn"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="W01-Od-Cwi" secondAttribute="trailing" id="ELr-m7-Jbr"/>
+                                    <constraint firstItem="W01-Od-Cwi" firstAttribute="top" secondItem="43x-Rc-cBB" secondAttribute="top" id="Lpk-Fl-aRJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="W01-Od-Cwi" secondAttribute="bottom" id="MRu-Gp-wEm"/>
+                                    <constraint firstItem="W01-Od-Cwi" firstAttribute="leading" secondItem="43x-Rc-cBB" secondAttribute="leading" id="gE6-r7-siI"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="43x-Rc-cBB" firstAttribute="trailing" secondItem="ZJX-ha-2I1" secondAttribute="trailing" id="5m5-SL-hDy"/>
+                            <constraint firstItem="43x-Rc-cBB" firstAttribute="bottom" secondItem="ZJX-ha-2I1" secondAttribute="bottom" id="C5h-vK-Byk"/>
+                            <constraint firstItem="43x-Rc-cBB" firstAttribute="leading" secondItem="ZJX-ha-2I1" secondAttribute="leading" id="Kob-ut-K13"/>
+                            <constraint firstItem="W01-Od-Cwi" firstAttribute="height" secondItem="pBy-AX-uef" secondAttribute="height" id="QCW-i8-SkM"/>
+                            <constraint firstItem="43x-Rc-cBB" firstAttribute="top" secondItem="pBy-AX-uef" secondAttribute="top" id="wP3-Vf-S3n"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZJX-ha-2I1"/>
+                    </view>
+                    <size key="freeformSize" width="1500" height="667"/>
+                    <connections>
+                        <segue destination="hpg-y5-b9e" kind="show" identifier="MapToInfo" id="TGX-wa-tcI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lr4-RQ-m2a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="852.79999999999995" y="841.52923538230891"/>
+        </scene>
+        <!--Song View Controller-->
+        <scene sceneID="7O5-Rf-hKR">
+            <objects>
+                <viewController id="hpg-y5-b9e" customClass="SongViewController" customModule="Global_Tunes_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cd2-2d-fsh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aJh-Ds-aO9">
+                                <rect key="frame" x="77" y="132" width="220" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.94052538890000004" green="0.93846630070000003" blue="0.94721605330000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KfH-ME-VYw">
+                                <rect key="frame" x="93" y="137" width="188" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                <state key="normal" title="click/shake for a new song!">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="randomizerButton:" destination="hpg-y5-b9e" eventType="touchUpInside" id="hg8-ig-S8g"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="see songs here" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="37T-08-00y">
+                                <rect key="frame" x="21" y="198" width="1313" height="77.5"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Genre" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HAt-kX-Cys">
+                                <rect key="frame" x="57" y="51" width="261" height="55"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="KJHdf" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3Yo-My-VQF">
+                                <rect key="frame" x="29" y="429" width="314" height="166"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" red="0.59997289679999999" green="0.73323189310000003" blue="0.83911008880000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUm-vg-BVR">
+                                <rect key="frame" x="11" y="22" width="35" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="19"/>
+                                <state key="normal" title="back">
+                                    <color key="titleColor" red="0.59997289677308274" green="0.73323189307580705" blue="0.83911008883248728" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="0fY-74-t2b" kind="show" id="bL8-Dr-ygW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W2C-IC-i3a">
+                                <rect key="frame" x="322" y="22" width="40" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="19"/>
+                                <state key="normal" title="home">
+                                    <color key="titleColor" red="0.59997289679999999" green="0.73323189310000003" blue="0.83911008880000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="A6L-x1-C17"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img_415928" translatesAutoresizingMaskIntoConstraints="NO" id="eOa-2j-fxq">
+                                <rect key="frame" x="176" y="397" width="20" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kFB-Kj-ON6">
+                                <rect key="frame" x="110" y="617" width="154" height="33"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="19"/>
+                                <state key="normal" title="click to donate!">
+                                    <color key="titleColor" red="0.25973327091776754" green="0.41745295603712806" blue="0.63495399746192893" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="donationButton:" destination="hpg-y5-b9e" eventType="touchUpInside" id="nWG-CB-rbF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="37T-08-00y" firstAttribute="top" secondItem="IJd-RH-JWk" secondAttribute="top" constant="190" id="2rP-oq-Lyf"/>
+                            <constraint firstItem="3Yo-My-VQF" firstAttribute="leading" secondItem="IJd-RH-JWk" secondAttribute="leading" constant="29" id="7Jm-ck-PcP"/>
+                            <constraint firstItem="3Yo-My-VQF" firstAttribute="top" secondItem="IJd-RH-JWk" secondAttribute="top" constant="409" id="EOy-ZF-qwn"/>
+                            <constraint firstItem="IJd-RH-JWk" firstAttribute="bottom" secondItem="37T-08-00y" secondAttribute="bottom" constant="329" id="InT-EK-2GA"/>
+                            <constraint firstItem="IJd-RH-JWk" firstAttribute="trailing" secondItem="kFB-Kj-ON6" secondAttribute="trailing" constant="111" id="KVp-eY-fgX"/>
+                            <constraint firstItem="HAt-kX-Cys" firstAttribute="leading" secondItem="IJd-RH-JWk" secondAttribute="leading" constant="57" id="LVq-CY-7Ia"/>
+                            <constraint firstItem="IJd-RH-JWk" firstAttribute="trailing" secondItem="3Yo-My-VQF" secondAttribute="trailing" constant="32" id="Nrw-vV-5v0"/>
+                            <constraint firstItem="kFB-Kj-ON6" firstAttribute="leading" secondItem="IJd-RH-JWk" secondAttribute="leading" constant="110" id="PmU-jw-PWb"/>
+                            <constraint firstItem="IJd-RH-JWk" firstAttribute="bottom" secondItem="HAt-kX-Cys" secondAttribute="bottom" constant="561" id="RSn-JN-SSt"/>
+                            <constraint firstItem="IJd-RH-JWk" firstAttribute="bottom" secondItem="3Yo-My-VQF" secondAttribute="bottom" constant="29" id="Wht-sW-sKM"/>
+                            <constraint firstItem="kFB-Kj-ON6" firstAttribute="top" secondItem="IJd-RH-JWk" secondAttribute="top" constant="597" id="XCd-7O-Sml"/>
+                            <constraint firstItem="HAt-kX-Cys" firstAttribute="top" secondItem="IJd-RH-JWk" secondAttribute="top" constant="5" id="Yto-lp-ibp"/>
+                            <constraint firstItem="IJd-RH-JWk" firstAttribute="trailing" secondItem="kFB-Kj-ON6" secondAttribute="trailing" constant="111" id="abu-hl-yJE"/>
+                            <constraint firstItem="IJd-RH-JWk" firstAttribute="trailing" secondItem="37T-08-00y" secondAttribute="trailing" constant="24" id="c3y-pD-IDc"/>
+                            <constraint firstItem="kFB-Kj-ON6" firstAttribute="leading" secondItem="IJd-RH-JWk" secondAttribute="leading" constant="110" id="cjY-PR-kKb"/>
+                            <constraint firstItem="37T-08-00y" firstAttribute="leading" secondItem="IJd-RH-JWk" secondAttribute="leading" constant="21" id="ieS-ev-kDq"/>
+                            <constraint firstItem="IJd-RH-JWk" firstAttribute="bottom" secondItem="kFB-Kj-ON6" secondAttribute="bottom" constant="17" id="kq4-z1-P6h"/>
+                            <constraint firstItem="IJd-RH-JWk" firstAttribute="trailing" secondItem="HAt-kX-Cys" secondAttribute="trailing" constant="57" id="uDI-Pj-g9X"/>
+                            <constraint firstItem="kFB-Kj-ON6" firstAttribute="top" secondItem="3Yo-My-VQF" secondAttribute="bottom" constant="22" id="xyg-XX-GnJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="IJd-RH-JWk"/>
+                    </view>
+                    <connections>
+                        <outlet property="genreLabel" destination="HAt-kX-Cys" id="kwS-wx-vZN"/>
+                        <outlet property="infoBox" destination="3Yo-My-VQF" id="I3f-WD-VJZ"/>
+                        <outlet property="songName" destination="37T-08-00y" id="5bF-8m-eZV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e3h-ZL-3ny" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1613.5999999999999" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="2000px-Music-staff.svg" width="2000" height="1000"/>
+        <image name="MapGlobalTunes" width="1500" height="744"/>
+        <image name="img_415928" width="980" height="980"/>
+        <image name="uparrow_arriba_5806" width="512" height="512"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="bL8-Dr-ygW"/>
+    </inferredMetricsTieBreakers>
+</document>

@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		264E2AC021063E4F004C8C36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E2ABF21063E4F004C8C36 /* AppDelegate.swift */; };
+		264E2AC221063E4F004C8C36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E2AC121063E4F004C8C36 /* ViewController.swift */; };
+		264E2AC721063E51004C8C36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 264E2AC621063E51004C8C36 /* Assets.xcassets */; };
+		264E2ACA21063E51004C8C36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264E2AC821063E51004C8C36 /* LaunchScreen.storyboard */; };
+		26BAA1282108EF11001AE9B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA1262108EF11001AE9B9 /* Main.storyboard */; };
+		26BAA1562108F790001AE9B9 /* world-flag-note-t-30.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA1292108F789001AE9B9 /* world-flag-note-t-30.png */; };
+		26BAA1572108F790001AE9B9 /* world-flag-note-t-42.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA12A2108F789001AE9B9 /* world-flag-note-t-42.png */; };
+		26BAA1582108F790001AE9B9 /* world-flag-note-t-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA12B2108F789001AE9B9 /* world-flag-note-t-32.png */; };
+		26BAA1592108F790001AE9B9 /* world-flag-note-t-28.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA12C2108F789001AE9B9 /* world-flag-note-t-28.png */; };
+		26BAA15A2108F790001AE9B9 /* world-flag-note-t-44.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA12D2108F789001AE9B9 /* world-flag-note-t-44.png */; };
+		26BAA15B2108F790001AE9B9 /* world-flag-note-t-12.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA12E2108F78A001AE9B9 /* world-flag-note-t-12.png */; };
+		26BAA15C2108F790001AE9B9 /* world-flag-note-t-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA12F2108F78A001AE9B9 /* world-flag-note-t-5.png */; };
+		26BAA15D2108F790001AE9B9 /* world-flag-note-t-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA1302108F78A001AE9B9 /* world-flag-note-t-29.png */; };
+		26BAA15E2108F790001AE9B9 /* world-flag-note-t-35.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA1312108F78A001AE9B9 /* world-flag-note-t-35.png */; };
+		26BAA15F2108F790001AE9B9 /* world-flag-note-t-36.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA1322108F78A001AE9B9 /* world-flag-note-t-36.png */; };
+		26BAA1602108F790001AE9B9 /* world-flag-note-t-37.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA1332108F78A001AE9B9 /* world-flag-note-t-37.png */; };
+		26BAA1612108F790001AE9B9 /* world-flag-note-t-14.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA1342108F78A001AE9B9 /* world-flag-note-t-14.png */; };
+		26BAA1622108F790001AE9B9 /* world-flag-note-t-18.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA1352108F78B001AE9B9 /* world-flag-note-t-18.png */; };
+		26BAA1632108F790001AE9B9 /* world-flag-note-t-27.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA1362108F78B001AE9B9 /* world-flag-note-t-27.png */; };
+		26BAA1642108F790001AE9B9 /* world-flag-note-t-38.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA1372108F78B001AE9B9 /* world-flag-note-t-38.png */; };
+		26BAA1652108F790001AE9B9 /* world-flag-note-t-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA1382108F78B001AE9B9 /* world-flag-note-t-10.png */; };
+		26BAA1662108F790001AE9B9 /* world-flag-note-t-22.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA1392108F78B001AE9B9 /* world-flag-note-t-22.png */; };
+		26BAA1672108F790001AE9B9 /* world-flag-note-t-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA13A2108F78B001AE9B9 /* world-flag-note-t-40.png */; };
+		26BAA1682108F790001AE9B9 /* world-flag-note-t-41.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA13B2108F78C001AE9B9 /* world-flag-note-t-41.png */; };
+		26BAA1692108F790001AE9B9 /* world-flag-note-t-31.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA13C2108F78C001AE9B9 /* world-flag-note-t-31.png */; };
+		26BAA16A2108F790001AE9B9 /* world-flag-note-t-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA13D2108F78C001AE9B9 /* world-flag-note-t-2.png */; };
+		26BAA16B2108F790001AE9B9 /* world-flag-note-t-19.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA13E2108F78C001AE9B9 /* world-flag-note-t-19.png */; };
+		26BAA16C2108F790001AE9B9 /* world-flag-note-t-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA13F2108F78C001AE9B9 /* world-flag-note-t-20.png */; };
+		26BAA16D2108F790001AE9B9 /* world-flag-note-t-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA1402108F78C001AE9B9 /* world-flag-note-t-7.png */; };
+		26BAA16E2108F790001AE9B9 /* world-flag-note-t-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA1412108F78C001AE9B9 /* world-flag-note-t-16.png */; };
+		26BAA16F2108F790001AE9B9 /* world-flag-note-t-39.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA1422108F78D001AE9B9 /* world-flag-note-t-39.png */; };
+		26BAA1702108F790001AE9B9 /* world-flag-note-t-43.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA1432108F78D001AE9B9 /* world-flag-note-t-43.png */; };
+		26BAA1712108F790001AE9B9 /* world-flag-note-t-23.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA1442108F78D001AE9B9 /* world-flag-note-t-23.png */; };
+		26BAA1722108F790001AE9B9 /* world-flag-note-t-24.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA1452108F78D001AE9B9 /* world-flag-note-t-24.png */; };
+		26BAA1732108F790001AE9B9 /* world-flag-note-t-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA1462108F78D001AE9B9 /* world-flag-note-t-4.png */; };
+		26BAA1742108F790001AE9B9 /* world-flag-note-t-15.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA1472108F78D001AE9B9 /* world-flag-note-t-15.png */; };
+		26BAA1752108F790001AE9B9 /* world-flag-note-t-13.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA1482108F78E001AE9B9 /* world-flag-note-t-13.png */; };
+		26BAA1762108F790001AE9B9 /* world-flag-note-t-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA1492108F78E001AE9B9 /* world-flag-note-t-1.png */; };
+		26BAA1772108F790001AE9B9 /* world-flag-note-t-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA14A2108F78E001AE9B9 /* world-flag-note-t-6.png */; };
+		26BAA1782108F790001AE9B9 /* world-flag-note-t-17.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA14B2108F78E001AE9B9 /* world-flag-note-t-17.png */; };
+		26BAA1792108F790001AE9B9 /* world-flag-note-t-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA14C2108F78E001AE9B9 /* world-flag-note-t-9.png */; };
+		26BAA17A2108F790001AE9B9 /* world-flag-note-t-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA14D2108F78E001AE9B9 /* world-flag-note-t-3.png */; };
+		26BAA17B2108F790001AE9B9 /* world-flag-note-t-21.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA14E2108F78E001AE9B9 /* world-flag-note-t-21.png */; };
+		26BAA17C2108F790001AE9B9 /* world-flag-note-t-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA14F2108F78F001AE9B9 /* world-flag-note-t-25.png */; };
+		26BAA17D2108F790001AE9B9 /* world-flag-note-t-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA1502108F78F001AE9B9 /* world-flag-note-t-26.png */; };
+		26BAA17E2108F790001AE9B9 /* world-flag-note-t-11.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA1512108F78F001AE9B9 /* world-flag-note-t-11.png */; };
+		26BAA17F2108F790001AE9B9 /* world-flag-note-t-33.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA1522108F78F001AE9B9 /* world-flag-note-t-33.png */; };
+		26BAA1802108F790001AE9B9 /* world-flag-note-t-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA1532108F78F001AE9B9 /* world-flag-note-t-8.png */; };
+		26BAA1812108F790001AE9B9 /* world-flag-note-t-34.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA1542108F78F001AE9B9 /* world-flag-note-t-34.png */; };
+		26BAA1822108F790001AE9B9 /* world-flag-note-t-45.png in Resources */ = {isa = PBXBuildFile; fileRef = 26BAA1552108F78F001AE9B9 /* world-flag-note-t-45.png */; };
+		26BAA184210912EB001AE9B9 /* SongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BAA183210912EB001AE9B9 /* SongViewController.swift */; };
+		26BAA18621091475001AE9B9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BAA18521091475001AE9B9 /* MapViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		264E2ABC21063E4F004C8C36 /* Global Tunes App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Global Tunes App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		264E2ABF21063E4F004C8C36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		264E2AC121063E4F004C8C36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		264E2AC621063E51004C8C36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		264E2AC921063E51004C8C36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		264E2ACB21063E51004C8C36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26BAA1272108EF11001AE9B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26BAA1292108F789001AE9B9 /* world-flag-note-t-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-30.png"; sourceTree = "<group>"; };
+		26BAA12A2108F789001AE9B9 /* world-flag-note-t-42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-42.png"; sourceTree = "<group>"; };
+		26BAA12B2108F789001AE9B9 /* world-flag-note-t-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-32.png"; sourceTree = "<group>"; };
+		26BAA12C2108F789001AE9B9 /* world-flag-note-t-28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-28.png"; sourceTree = "<group>"; };
+		26BAA12D2108F789001AE9B9 /* world-flag-note-t-44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-44.png"; sourceTree = "<group>"; };
+		26BAA12E2108F78A001AE9B9 /* world-flag-note-t-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-12.png"; sourceTree = "<group>"; };
+		26BAA12F2108F78A001AE9B9 /* world-flag-note-t-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-5.png"; sourceTree = "<group>"; };
+		26BAA1302108F78A001AE9B9 /* world-flag-note-t-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-29.png"; sourceTree = "<group>"; };
+		26BAA1312108F78A001AE9B9 /* world-flag-note-t-35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-35.png"; sourceTree = "<group>"; };
+		26BAA1322108F78A001AE9B9 /* world-flag-note-t-36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-36.png"; sourceTree = "<group>"; };
+		26BAA1332108F78A001AE9B9 /* world-flag-note-t-37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-37.png"; sourceTree = "<group>"; };
+		26BAA1342108F78A001AE9B9 /* world-flag-note-t-14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-14.png"; sourceTree = "<group>"; };
+		26BAA1352108F78B001AE9B9 /* world-flag-note-t-18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-18.png"; sourceTree = "<group>"; };
+		26BAA1362108F78B001AE9B9 /* world-flag-note-t-27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-27.png"; sourceTree = "<group>"; };
+		26BAA1372108F78B001AE9B9 /* world-flag-note-t-38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-38.png"; sourceTree = "<group>"; };
+		26BAA1382108F78B001AE9B9 /* world-flag-note-t-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-10.png"; sourceTree = "<group>"; };
+		26BAA1392108F78B001AE9B9 /* world-flag-note-t-22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-22.png"; sourceTree = "<group>"; };
+		26BAA13A2108F78B001AE9B9 /* world-flag-note-t-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-40.png"; sourceTree = "<group>"; };
+		26BAA13B2108F78C001AE9B9 /* world-flag-note-t-41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-41.png"; sourceTree = "<group>"; };
+		26BAA13C2108F78C001AE9B9 /* world-flag-note-t-31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-31.png"; sourceTree = "<group>"; };
+		26BAA13D2108F78C001AE9B9 /* world-flag-note-t-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-2.png"; sourceTree = "<group>"; };
+		26BAA13E2108F78C001AE9B9 /* world-flag-note-t-19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-19.png"; sourceTree = "<group>"; };
+		26BAA13F2108F78C001AE9B9 /* world-flag-note-t-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-20.png"; sourceTree = "<group>"; };
+		26BAA1402108F78C001AE9B9 /* world-flag-note-t-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-7.png"; sourceTree = "<group>"; };
+		26BAA1412108F78C001AE9B9 /* world-flag-note-t-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-16.png"; sourceTree = "<group>"; };
+		26BAA1422108F78D001AE9B9 /* world-flag-note-t-39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-39.png"; sourceTree = "<group>"; };
+		26BAA1432108F78D001AE9B9 /* world-flag-note-t-43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-43.png"; sourceTree = "<group>"; };
+		26BAA1442108F78D001AE9B9 /* world-flag-note-t-23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-23.png"; sourceTree = "<group>"; };
+		26BAA1452108F78D001AE9B9 /* world-flag-note-t-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-24.png"; sourceTree = "<group>"; };
+		26BAA1462108F78D001AE9B9 /* world-flag-note-t-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-4.png"; sourceTree = "<group>"; };
+		26BAA1472108F78D001AE9B9 /* world-flag-note-t-15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-15.png"; sourceTree = "<group>"; };
+		26BAA1482108F78E001AE9B9 /* world-flag-note-t-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-13.png"; sourceTree = "<group>"; };
+		26BAA1492108F78E001AE9B9 /* world-flag-note-t-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-1.png"; sourceTree = "<group>"; };
+		26BAA14A2108F78E001AE9B9 /* world-flag-note-t-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-6.png"; sourceTree = "<group>"; };
+		26BAA14B2108F78E001AE9B9 /* world-flag-note-t-17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-17.png"; sourceTree = "<group>"; };
+		26BAA14C2108F78E001AE9B9 /* world-flag-note-t-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-9.png"; sourceTree = "<group>"; };
+		26BAA14D2108F78E001AE9B9 /* world-flag-note-t-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-3.png"; sourceTree = "<group>"; };
+		26BAA14E2108F78E001AE9B9 /* world-flag-note-t-21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-21.png"; sourceTree = "<group>"; };
+		26BAA14F2108F78F001AE9B9 /* world-flag-note-t-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-25.png"; sourceTree = "<group>"; };
+		26BAA1502108F78F001AE9B9 /* world-flag-note-t-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-26.png"; sourceTree = "<group>"; };
+		26BAA1512108F78F001AE9B9 /* world-flag-note-t-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-11.png"; sourceTree = "<group>"; };
+		26BAA1522108F78F001AE9B9 /* world-flag-note-t-33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-33.png"; sourceTree = "<group>"; };
+		26BAA1532108F78F001AE9B9 /* world-flag-note-t-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-8.png"; sourceTree = "<group>"; };
+		26BAA1542108F78F001AE9B9 /* world-flag-note-t-34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-34.png"; sourceTree = "<group>"; };
+		26BAA1552108F78F001AE9B9 /* world-flag-note-t-45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "world-flag-note-t-45.png"; sourceTree = "<group>"; };
+		26BAA183210912EB001AE9B9 /* SongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongViewController.swift; sourceTree = "<group>"; };
+		26BAA18521091475001AE9B9 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		264E2AB921063E4F004C8C36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		264E2AB321063E4F004C8C36 = {
+			isa = PBXGroup;
+			children = (
+				264E2ABE21063E4F004C8C36 /* Global Tunes App */,
+				264E2ABD21063E4F004C8C36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		264E2ABD21063E4F004C8C36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				264E2ABC21063E4F004C8C36 /* Global Tunes App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		264E2ABE21063E4F004C8C36 /* Global Tunes App */ = {
+			isa = PBXGroup;
+			children = (
+				264E2ABF21063E4F004C8C36 /* AppDelegate.swift */,
+				264E2AC121063E4F004C8C36 /* ViewController.swift */,
+				26BAA1262108EF11001AE9B9 /* Main.storyboard */,
+				26BAA18521091475001AE9B9 /* MapViewController.swift */,
+				26BAA183210912EB001AE9B9 /* SongViewController.swift */,
+				264E2AC621063E51004C8C36 /* Assets.xcassets */,
+				264E2AC821063E51004C8C36 /* LaunchScreen.storyboard */,
+				264E2ACB21063E51004C8C36 /* Info.plist */,
+				26BAA1492108F78E001AE9B9 /* world-flag-note-t-1.png */,
+				26BAA13D2108F78C001AE9B9 /* world-flag-note-t-2.png */,
+				26BAA14D2108F78E001AE9B9 /* world-flag-note-t-3.png */,
+				26BAA1462108F78D001AE9B9 /* world-flag-note-t-4.png */,
+				26BAA12F2108F78A001AE9B9 /* world-flag-note-t-5.png */,
+				26BAA14A2108F78E001AE9B9 /* world-flag-note-t-6.png */,
+				26BAA1402108F78C001AE9B9 /* world-flag-note-t-7.png */,
+				26BAA1532108F78F001AE9B9 /* world-flag-note-t-8.png */,
+				26BAA14C2108F78E001AE9B9 /* world-flag-note-t-9.png */,
+				26BAA1382108F78B001AE9B9 /* world-flag-note-t-10.png */,
+				26BAA1512108F78F001AE9B9 /* world-flag-note-t-11.png */,
+				26BAA12E2108F78A001AE9B9 /* world-flag-note-t-12.png */,
+				26BAA1482108F78E001AE9B9 /* world-flag-note-t-13.png */,
+				26BAA1342108F78A001AE9B9 /* world-flag-note-t-14.png */,
+				26BAA1472108F78D001AE9B9 /* world-flag-note-t-15.png */,
+				26BAA1412108F78C001AE9B9 /* world-flag-note-t-16.png */,
+				26BAA14B2108F78E001AE9B9 /* world-flag-note-t-17.png */,
+				26BAA1352108F78B001AE9B9 /* world-flag-note-t-18.png */,
+				26BAA13E2108F78C001AE9B9 /* world-flag-note-t-19.png */,
+				26BAA13F2108F78C001AE9B9 /* world-flag-note-t-20.png */,
+				26BAA14E2108F78E001AE9B9 /* world-flag-note-t-21.png */,
+				26BAA1392108F78B001AE9B9 /* world-flag-note-t-22.png */,
+				26BAA1442108F78D001AE9B9 /* world-flag-note-t-23.png */,
+				26BAA1452108F78D001AE9B9 /* world-flag-note-t-24.png */,
+				26BAA14F2108F78F001AE9B9 /* world-flag-note-t-25.png */,
+				26BAA1502108F78F001AE9B9 /* world-flag-note-t-26.png */,
+				26BAA1362108F78B001AE9B9 /* world-flag-note-t-27.png */,
+				26BAA12C2108F789001AE9B9 /* world-flag-note-t-28.png */,
+				26BAA1302108F78A001AE9B9 /* world-flag-note-t-29.png */,
+				26BAA1292108F789001AE9B9 /* world-flag-note-t-30.png */,
+				26BAA13C2108F78C001AE9B9 /* world-flag-note-t-31.png */,
+				26BAA12B2108F789001AE9B9 /* world-flag-note-t-32.png */,
+				26BAA1522108F78F001AE9B9 /* world-flag-note-t-33.png */,
+				26BAA1542108F78F001AE9B9 /* world-flag-note-t-34.png */,
+				26BAA1312108F78A001AE9B9 /* world-flag-note-t-35.png */,
+				26BAA1322108F78A001AE9B9 /* world-flag-note-t-36.png */,
+				26BAA1332108F78A001AE9B9 /* world-flag-note-t-37.png */,
+				26BAA1372108F78B001AE9B9 /* world-flag-note-t-38.png */,
+				26BAA1422108F78D001AE9B9 /* world-flag-note-t-39.png */,
+				26BAA13A2108F78B001AE9B9 /* world-flag-note-t-40.png */,
+				26BAA13B2108F78C001AE9B9 /* world-flag-note-t-41.png */,
+				26BAA12A2108F789001AE9B9 /* world-flag-note-t-42.png */,
+				26BAA1432108F78D001AE9B9 /* world-flag-note-t-43.png */,
+				26BAA12D2108F789001AE9B9 /* world-flag-note-t-44.png */,
+				26BAA1552108F78F001AE9B9 /* world-flag-note-t-45.png */,
+			);
+			path = "Global Tunes App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		264E2ABB21063E4F004C8C36 /* Global Tunes App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 264E2ACE21063E51004C8C36 /* Build configuration list for PBXNativeTarget "Global Tunes App" */;
+			buildPhases = (
+				264E2AB821063E4F004C8C36 /* Sources */,
+				264E2AB921063E4F004C8C36 /* Frameworks */,
+				264E2ABA21063E4F004C8C36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Global Tunes App";
+			productName = "Global Tunes App";
+			productReference = 264E2ABC21063E4F004C8C36 /* Global Tunes App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		264E2AB421063E4F004C8C36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Sylvia Chin";
+				TargetAttributes = {
+					264E2ABB21063E4F004C8C36 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 264E2AB721063E4F004C8C36 /* Build configuration list for PBXProject "Global Tunes App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 264E2AB321063E4F004C8C36;
+			productRefGroup = 264E2ABD21063E4F004C8C36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				264E2ABB21063E4F004C8C36 /* Global Tunes App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		264E2ABA21063E4F004C8C36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BAA1572108F790001AE9B9 /* world-flag-note-t-42.png in Resources */,
+				26BAA1812108F790001AE9B9 /* world-flag-note-t-34.png in Resources */,
+				26BAA1692108F790001AE9B9 /* world-flag-note-t-31.png in Resources */,
+				26BAA1602108F790001AE9B9 /* world-flag-note-t-37.png in Resources */,
+				26BAA1822108F790001AE9B9 /* world-flag-note-t-45.png in Resources */,
+				26BAA15C2108F790001AE9B9 /* world-flag-note-t-5.png in Resources */,
+				26BAA1282108EF11001AE9B9 /* Main.storyboard in Resources */,
+				26BAA1712108F790001AE9B9 /* world-flag-note-t-23.png in Resources */,
+				26BAA16D2108F790001AE9B9 /* world-flag-note-t-7.png in Resources */,
+				26BAA1622108F790001AE9B9 /* world-flag-note-t-18.png in Resources */,
+				26BAA15F2108F790001AE9B9 /* world-flag-note-t-36.png in Resources */,
+				264E2ACA21063E51004C8C36 /* LaunchScreen.storyboard in Resources */,
+				26BAA15A2108F790001AE9B9 /* world-flag-note-t-44.png in Resources */,
+				26BAA1702108F790001AE9B9 /* world-flag-note-t-43.png in Resources */,
+				26BAA16E2108F790001AE9B9 /* world-flag-note-t-16.png in Resources */,
+				26BAA17A2108F790001AE9B9 /* world-flag-note-t-3.png in Resources */,
+				26BAA16F2108F790001AE9B9 /* world-flag-note-t-39.png in Resources */,
+				26BAA15D2108F790001AE9B9 /* world-flag-note-t-29.png in Resources */,
+				26BAA1752108F790001AE9B9 /* world-flag-note-t-13.png in Resources */,
+				26BAA17D2108F790001AE9B9 /* world-flag-note-t-26.png in Resources */,
+				26BAA1592108F790001AE9B9 /* world-flag-note-t-28.png in Resources */,
+				26BAA17B2108F790001AE9B9 /* world-flag-note-t-21.png in Resources */,
+				26BAA1802108F790001AE9B9 /* world-flag-note-t-8.png in Resources */,
+				26BAA1782108F790001AE9B9 /* world-flag-note-t-17.png in Resources */,
+				26BAA15E2108F790001AE9B9 /* world-flag-note-t-35.png in Resources */,
+				26BAA1722108F790001AE9B9 /* world-flag-note-t-24.png in Resources */,
+				26BAA17C2108F790001AE9B9 /* world-flag-note-t-25.png in Resources */,
+				26BAA1612108F790001AE9B9 /* world-flag-note-t-14.png in Resources */,
+				26BAA17F2108F790001AE9B9 /* world-flag-note-t-33.png in Resources */,
+				26BAA16C2108F790001AE9B9 /* world-flag-note-t-20.png in Resources */,
+				26BAA1772108F790001AE9B9 /* world-flag-note-t-6.png in Resources */,
+				26BAA1562108F790001AE9B9 /* world-flag-note-t-30.png in Resources */,
+				26BAA1632108F790001AE9B9 /* world-flag-note-t-27.png in Resources */,
+				26BAA1762108F790001AE9B9 /* world-flag-note-t-1.png in Resources */,
+				26BAA16B2108F790001AE9B9 /* world-flag-note-t-19.png in Resources */,
+				26BAA1732108F790001AE9B9 /* world-flag-note-t-4.png in Resources */,
+				26BAA1582108F790001AE9B9 /* world-flag-note-t-32.png in Resources */,
+				26BAA17E2108F790001AE9B9 /* world-flag-note-t-11.png in Resources */,
+				26BAA1662108F790001AE9B9 /* world-flag-note-t-22.png in Resources */,
+				26BAA1682108F790001AE9B9 /* world-flag-note-t-41.png in Resources */,
+				26BAA1672108F790001AE9B9 /* world-flag-note-t-40.png in Resources */,
+				26BAA15B2108F790001AE9B9 /* world-flag-note-t-12.png in Resources */,
+				26BAA1742108F790001AE9B9 /* world-flag-note-t-15.png in Resources */,
+				26BAA16A2108F790001AE9B9 /* world-flag-note-t-2.png in Resources */,
+				26BAA1642108F790001AE9B9 /* world-flag-note-t-38.png in Resources */,
+				26BAA1652108F790001AE9B9 /* world-flag-note-t-10.png in Resources */,
+				264E2AC721063E51004C8C36 /* Assets.xcassets in Resources */,
+				26BAA1792108F790001AE9B9 /* world-flag-note-t-9.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		264E2AB821063E4F004C8C36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BAA184210912EB001AE9B9 /* SongViewController.swift in Sources */,
+				264E2AC221063E4F004C8C36 /* ViewController.swift in Sources */,
+				264E2AC021063E4F004C8C36 /* AppDelegate.swift in Sources */,
+				26BAA18621091475001AE9B9 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		264E2AC821063E51004C8C36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				264E2AC921063E51004C8C36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		26BAA1262108EF11001AE9B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26BAA1272108EF11001AE9B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		264E2ACC21063E51004C8C36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		264E2ACD21063E51004C8C36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		264E2ACF21063E51004C8C36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4947UD27H;
+				INFOPLIST_FILE = "Global Tunes App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GirlsWhoCode-Tunes-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		264E2AD021063E51004C8C36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4947UD27H;
+				INFOPLIST_FILE = "Global Tunes App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GirlsWhoCode-Tunes-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		264E2AB721063E4F004C8C36 /* Build configuration list for PBXProject "Global Tunes App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264E2ACC21063E51004C8C36 /* Debug */,
+				264E2ACD21063E51004C8C36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		264E2ACE21063E51004C8C36 /* Build configuration list for PBXNativeTarget "Global Tunes App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264E2ACF21063E51004C8C36 /* Debug */,
+				264E2AD021063E51004C8C36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 264E2AB421063E4F004C8C36 /* Project object */;
+}
